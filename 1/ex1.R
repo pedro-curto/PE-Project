@@ -4,9 +4,8 @@ install.packages('readxl')
 library('readxl')
 install.packages('dplyr')
 library('dplyr')
-setwd('C:/Users/Pedro Curto/Desktop/Desktop/Uni/PE/Projeto/1')
 
-data = read_excel('econ.xlsx', skip = 19, col_names=c("tempo", "skip", "pop", "skip", "ddesemp", "skip"))
+data = read_excel('./econ.xlsx', skip = 19, col_names=c("tempo", "skip", "pop", "skip", "ddesemp", "skip"))
 ddesemp = data$ddesemp
 pop = data$pop
 ddesemp_mean = mean(ddesemp)

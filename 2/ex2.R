@@ -1,7 +1,4 @@
-setwd('C:/Users/sousa/Dropbox/PE/proj_PE')
-
-
-dados = read.csv("TIME_USE_24092022.csv")
+dados = read.csv("./TIME_USE_24092022.csv")
 dados = subset(dados, País != "África do Sul")
 
 outros_mulheres = subset(dados,
