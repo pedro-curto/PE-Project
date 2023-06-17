@@ -1,7 +1,7 @@
-set.seed(1797) # Fixando a semente em 1851
+set.seed(1778) # Fixando a semente em 1851
 
-p <- 0.2 # Parâmetro da distribuição geométrica
-n <- 1135 # Tamanho da amostra
+p <- 0.4 # Parâmetro da distribuição geométrica
+n <- 1013 # Tamanho da amostra
 
 # Função de distribuição acumulada (FDA) da distribuição geométrica
 FDA_geom <- function(x, p) {

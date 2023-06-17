@@ -1,6 +1,6 @@
-set.seed(4267)
-k = 2072
-lambda = 7.5
+set.seed(3034)
+k = 3172
+lambda = 26.5
 amostra_exp = rexp(k, rate = lambda)
 
 soma_observacoes = cumsum(amostra_exp)
