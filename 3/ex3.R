@@ -18,4 +18,3 @@ ggplot(graph_data, aes(x = Age.Group, y = Value, fill = Sex)) +
        y = "Labour Force Participation Rate") +
   scale_fill_manual(values = c("blue", "red"),
                     labels = c("Men", "Women"))
-

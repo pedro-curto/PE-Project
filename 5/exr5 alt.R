@@ -1,11 +1,6 @@
-# Definir parâmetro da distribuição geométrica
-p <- 0.4
-
-# Definir o tamanho da amostra
-n <- 1166
-
-# Fixar a semente para reprodução dos resultados
-set.seed(1586)
+set.seed(1797)
+p <- 0.2
+n <- 1135
 
 # Vetor para armazenar os valores simulados
 simulated_values <- numeric(n)

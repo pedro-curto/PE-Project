@@ -11,3 +11,5 @@ contagem = sum(x > media_amostral + desvio_padrao_amostral)
 proporcao = contagem / sum(x > media_amostral)
 
 resultado = round(proporcao, 4)
+
+resultado

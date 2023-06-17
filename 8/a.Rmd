@@ -1,3 +1,9 @@
+---
+title: "Exercise 8"
+output: pdf_document
+---
+
+```{r code_chunk_name, echo=TRUE, message=FALSE, fig.width=10, fig.height=6, fig.align='center'}
 library('ggplot2')
 set.seed(1803)
 n <- 152
@@ -19,4 +25,5 @@ ggplot(dados, aes(x = quantis)) +
         legend.justification = c(0, 1),
         legend.background = element_rect(fill = "transparent")) + 
   guides(color=guide_legend(title=""))
+```
 

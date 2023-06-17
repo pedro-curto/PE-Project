@@ -9,11 +9,9 @@ nao_remunerado_mulheres = subset(dados,
                                   Ocupação == "Trabalho não remunerado" & Sexo == "Mulheres",
                                   select = "Tempo")
 
-
 boxplot( c(outros_mulheres, nao_remunerado_mulheres),
         names = c("Outros","Trabalho não remunerado"),
         col = c('red','blue'),
         horizontal = TRUE,
-        main = "Mulheres",
+        main = "Tempos médios diários registados para mulheres",
         xlab = "Tempo (minutos)")
-
