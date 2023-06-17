@@ -1,6 +1,6 @@
-set.seed(4267)
-k = 2072
-lambda = 7.5
+set.seed(1374)
+k = 4723
+lambda = 12.5
 amostra_exp = rexp(k, rate = lambda)
 
 soma_observacoes = cumsum(amostra_exp)
@@ -21,4 +21,4 @@ desvio_absoluto = abs(media_acontecimentos - valor_esperado)
 desvio_absoluto_arredondado = round(desvio_absoluto, 4)
 
 desvio_absoluto_arredondado
-# 0.3552
+# 0.2642

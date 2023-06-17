@@ -12,3 +12,4 @@ quantil_teorico <- qchisq(0.32, df = n)
 diferenca <- round(abs(quantil_amostra - quantil_teorico), 4)
 
 print(diferenca)
+# ao zé dá 0.0819

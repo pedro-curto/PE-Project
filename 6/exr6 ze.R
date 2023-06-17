@@ -1,6 +1,6 @@
-probabilidade <- log10(1 + 1/1) + log10(1 + 1/9)
+probabilidade <- log10(1 + 1/5) + log10(1 + 1/6)
 
-potencias_dois <- which(log2(27:220) %% 1 == 0)
+potencias_dois <- which(log2(4:16777216) %% 1 == 0)
 potencias_19 <- potencias_dois[grep("^(1|9)", as.character(potencias_dois))]
 fracao_19 <- length(potencias_19) / length(potencias_dois)
 
@@ -8,4 +8,4 @@ desvio_absoluto <- abs(fracao_19 - probabilidade)
 desvio_arredondado <- round(desvio_absoluto, 4)
 
 print(desvio_arredondado)
-# o do zé deu 0.0104
+# o do zé deu 0.0278
